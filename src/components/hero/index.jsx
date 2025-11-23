@@ -25,7 +25,7 @@ const Hero = () => {
                     <img src={hero_img} alt="hero_img" />
                 </div>
             </div>
-            <div className='rounded-[24px] bg-light-grey overflow-hidden'>
+            <div className='block md:hidden rounded-[24px] bg-light-grey overflow-hidden'>
                 <img src={hero_img_mobile} className='w-full' alt="hero_img_mobile" />
                 <div className='flex gap-[40px] px-[16px]'>
                         <p className='flex items-center gap-[10px]'><AiFillFire className='text-danger text-[28px]' /> <b className='text-[28px] text-danger'>$12.56</b> <span className='ml-[10px] text-[20px] text-text-secondary line-through'>$15.56</span></p>
