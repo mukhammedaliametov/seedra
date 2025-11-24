@@ -1,0 +1,170 @@
+import product1 from "../../assets/product1.png";
+import product2 from "../../assets/product2.png";
+import product3 from "../../assets/product3.png";
+
+export const products = [
+  {
+    id: 1,
+    title: "SEEDRA Cilantro Seeds for Planting Indoor and Outdoor",
+    description:
+      "Organik cilantro urug'lari – uy ichida va tashqarida ekish uchun ideal. Tez unadi, parvarishi oson va ta’mi kuchli bo‘ladi.",
+    price: 12.56,
+    rating: 4.8,
+    reviewCount: 123,
+    brand: "SEEDRA",
+    category: "Herbs",
+    stock: 320,
+    sku: "CIL-300-USA",
+    image: "/images/cilantro.png",
+    image: product1,
+    features: [
+      "300 dona urug'",
+      "Tez unaydi – 6–10 kun",
+      "Uy ichida ekish uchun mos",
+      "100% organik urug'lar",
+    ],
+    growingInfo: {
+      sunlight: "To‘liq quyosh yoki yarim soyali",
+      watering: "Haftada 2 marta",
+      temperature: "18°C – 24°C",
+      harvestTime: "30–35 kun",
+    },
+  },
+  {
+    id: 2,
+    title:
+      "SEEDRA Corn – Bodacious Hybrid Seeds for Indoor and Outdoor Planting",
+    description:
+      "Shirin va mazali Bodacious turidagi makkajo‘xori urug‘lari. Katta hosil beradi, kasalliklarga chidamli.",
+    price: 12.56,
+    rating: 4.7,
+    reviewCount: 123,
+    brand: "SEEDRA",
+    category: "Vegetables",
+    stock: 210,
+    sku: "CORN-BOD-HYB",
+    image: "/images/corn.png",
+    image: product2,
+    features: [
+      "Hybrid makkajo‘xori urug‘lari",
+      "Katta hosil",
+      "Kasalliklarga chidamli",
+      "Uy va bog' uchun mos",
+    ],
+    growingInfo: {
+      sunlight: "To‘liq quyosh",
+      watering: "Ko‘p suv talab qiladi (haftada 3 marta)",
+      temperature: "20°C – 32°C",
+      harvestTime: "70–80 kun",
+    },
+  },
+  {
+    id: 3,
+    title: "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
+    description:
+      "Vitaminlarga boy ismaloq urug‘lari. Yengil parvarish, tez unaydigan, salatlar va taomlar uchun juda yaxshi.",
+    price: 12.56,
+    rating: 4.9,
+    reviewCount: 123,
+    brand: "SEEDRA",
+    category: "Leafy Greens",
+    stock: 450,
+    sku: "SPIN-500-USA",
+    image: "/images/spinach.png",
+    image: product3,
+    features: [
+      "500 dona urug'",
+      "Vitamin A, C va K ga boy",
+      "Tez unaydi – 5–7 kun",
+      "Uy ichida va bog‘da ekish uchun",
+    ],
+    growingInfo: {
+      sunlight: "Yarim soyali yoki to‘liq quyosh",
+      watering: "Doimiy nam tuproq (haftada 3 marta)",
+      temperature: "10°C – 20°C",
+      harvestTime: "35–45 kun",
+    },
+  },
+  {
+    id: 4,
+    title: "SEEDRA Cilantro Seeds for Planting Indoor and Outdoor",
+    description:
+      "Organik cilantro urug'lari – uy ichida va tashqarida ekish uchun ideal. Tez unadi, parvarishi oson va ta’mi kuchli bo‘ladi.",
+    price: 12.56,
+    rating: 4.8,
+    reviewCount: 123,
+    brand: "SEEDRA",
+    category: "Herbs",
+    stock: 320,
+    sku: "CIL-300-USA",
+    image: "/images/cilantro.png",
+    image: product1,
+    features: [
+      "300 dona urug'",
+      "Tez unaydi – 6–10 kun",
+      "Uy ichida ekish uchun mos",
+      "100% organik urug'lar",
+    ],
+    growingInfo: {
+      sunlight: "To‘liq quyosh yoki yarim soyali",
+      watering: "Haftada 2 marta",
+      temperature: "18°C – 24°C",
+      harvestTime: "30–35 kun",
+    },
+  },
+  {
+    id: 5,
+    title:
+      "SEEDRA Corn – Bodacious Hybrid Seeds for Indoor and Outdoor Planting",
+    description:
+      "Shirin va mazali Bodacious turidagi makkajo‘xori urug‘lari. Katta hosil beradi, kasalliklarga chidamli.",
+    price: 12.56,
+    rating: 4.7,
+    reviewCount: 123,
+    brand: "SEEDRA",
+    category: "Vegetables",
+    stock: 210,
+    sku: "CORN-BOD-HYB",
+    image: "/images/corn.png",
+    image: product2,
+    features: [
+      "Hybrid makkajo‘xori urug‘lari",
+      "Katta hosil",
+      "Kasalliklarga chidamli",
+      "Uy va bog' uchun mos",
+    ],
+    growingInfo: {
+      sunlight: "To‘liq quyosh",
+      watering: "Ko‘p suv talab qiladi (haftada 3 marta)",
+      temperature: "20°C – 32°C",
+      harvestTime: "70–80 kun",
+    },
+  },
+  {
+    id: 6,
+    title: "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
+    description:
+      "Vitaminlarga boy ismaloq urug‘lari. Yengil parvarish, tez unaydigan, salatlar va taomlar uchun juda yaxshi.",
+    price: 12.56,
+    rating: 4.9,
+    reviewCount: 123,
+    brand: "SEEDRA",
+    category: "Leafy Greens",
+    stock: 450,
+    sku: "SPIN-500-USA",
+    image: "/images/spinach.png",
+    image: product3,
+    features: [
+      "500 dona urug'",
+      "Vitamin A, C va K ga boy",
+      "Tez unaydi – 5–7 kun",
+      "Uy ichida va bog‘da ekish uchun",
+    ],
+    growingInfo: {
+      sunlight: "Yarim soyali yoki to‘liq quyosh",
+      watering: "Doimiy nam tuproq (haftada 3 marta)",
+      temperature: "10°C – 20°C",
+      harvestTime: "35–45 kun",
+    },
+  }
+];
